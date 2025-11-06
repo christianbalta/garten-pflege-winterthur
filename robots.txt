@@ -1,0 +1,9 @@
+# Robots.txt for gartenpflege-winterthur-2
+# Update the Sitemap URL below to your final, canonical domain before going live.
+# Example: https://fretz-garten.ch/gartenpflege-winterthur/
+
+User-agent: *
+Allow: /
+
+# IMPORTANT: Replace YOUR-DOMAIN with your production domain (no trailing slash)
+Sitemap: https://garten-pflege-winterthur.ch/sitemap.xml
