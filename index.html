@@ -9,8 +9,11 @@
 
   <!-- Load all CSS directly - no JavaScript processing -->
   <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet">
 
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
@@ -22,28 +25,73 @@
     }
 
     /* Primary color classes */
-    .text-primary { color: #35644c !important; }
-    .text-primary-50 { color: #f0f5f3 !important; }
-    .text-primary-100 { color: #d9e7e0 !important; }
-    .text-primary-200 { color: #b3cfc1 !important; }
-    .text-primary-300 { color: #8db7a2 !important; }
-    .text-primary-900 { color: #152119 !important; }
+    .text-primary {
+      color: #35644c !important;
+    }
 
-    .bg-primary { background-color: #35644c !important; }
-    .bg-primary-50 { background-color: #f0f5f3 !important; }
-    .bg-primary-700 { background-color: #254232 !important; }
-    .bg-primary-900 { background-color: #152119 !important; }
+    .text-primary-50 {
+      color: #f0f5f3 !important;
+    }
 
-    .border-primary { border-color: #35644c !important; }
-    .border-primary-700 { border-color: #254232 !important; }
+    .text-primary-100 {
+      color: #d9e7e0 !important;
+    }
 
-    .hover\:bg-primary-50:hover { background-color: #f0f5f3 !important; }
-    .hover\:bg-primary-600:hover { background-color: #2d533f !important; }
+    .text-primary-200 {
+      color: #b3cfc1 !important;
+    }
 
-    .hover\:text-primary:hover { color: #35644c !important; }
+    .text-primary-300 {
+      color: #8db7a2 !important;
+    }
 
-    .from-primary-800 { --tw-gradient-from: #1d3226 !important; }
-    .to-primary-600 { --tw-gradient-to: #2d533f !important; }
+    .text-primary-900 {
+      color: #152119 !important;
+    }
+
+    .bg-primary {
+      background-color: #35644c !important;
+    }
+
+    .bg-primary-50 {
+      background-color: #f0f5f3 !important;
+    }
+
+    .bg-primary-700 {
+      background-color: #254232 !important;
+    }
+
+    .bg-primary-900 {
+      background-color: #152119 !important;
+    }
+
+    .border-primary {
+      border-color: #35644c !important;
+    }
+
+    .border-primary-700 {
+      border-color: #254232 !important;
+    }
+
+    .hover\:bg-primary-50:hover {
+      background-color: #f0f5f3 !important;
+    }
+
+    .hover\:bg-primary-600:hover {
+      background-color: #2d533f !important;
+    }
+
+    .hover\:text-primary:hover {
+      color: #35644c !important;
+    }
+
+    .from-primary-800 {
+      --tw-gradient-from: #1d3226 !important;
+    }
+
+    .to-primary-600 {
+      --tw-gradient-to: #2d533f !important;
+    }
 
     /* Fix gradient backgrounds */
     .bg-gradient-to-br {
@@ -227,6 +275,14 @@
       </div>
     </div>
   </div>
+
+  <!-- CTA Button -->
+  <div class="flex flex-col sm:flex-row gap-4 mb-12 justify-center items-center mt-5">
+    <a href="https://fretz-garten.ch/kontakt/" target="_blank"
+       class="bg-primary hover:bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 inline-block text-center">
+      <i class="fas fa-paper-plane mr-2"></i>Jetzt Offerte anfordern
+    </a>
+  </div>
 </section>
 
 <!-- TEXT SECTION: Herausforderungen -->
@@ -409,6 +465,14 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- CTA Button -->
+  <div class="flex flex-col sm:flex-row gap-4 mb-12 justify-center items-center mt-5">
+    <a href="https://fretz-garten.ch/kontakt/" target="_blank"
+       class="bg-primary hover:bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 inline-block text-center">
+      <i class="fas fa-paper-plane mr-2"></i>Jetzt Offerte anfordern
+    </a>
   </div>
 </section>
 
@@ -687,6 +751,14 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- CTA Button -->
+  <div class="flex flex-col sm:flex-row gap-4 mb-12 justify-center items-center mt-5">
+    <a href="https://fretz-garten.ch/kontakt/" target="_blank"
+       class="bg-primary hover:bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 inline-block text-center">
+      <i class="fas fa-paper-plane mr-2"></i>Jetzt Offerte anfordern
+    </a>
   </div>
 </section>
 
@@ -997,7 +1069,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
       <!-- Company Info -->
       <div>
-        <img src="/images/fretz-gartenpflege-gmbh-logo.png" alt="Fretz Gartenpflege GmbH Logo" class="h-24 mb-4">
+        <img src="/images/fretz-gartenpflege-gmbh-logo.png" alt="Fretz Gartenpflege GmbH Logo"
+             class="h-24 mb-4">
         <p class="text-primary-200 leading-relaxed mb-4">
           Ihr zuverlässiger Partner für professionelle Gartenpflege in Winterthur und Umgebung.
         </p>
@@ -1021,7 +1094,8 @@
                  class="text-primary-200 hover:text-white transition-colors">Kontakt</a></li>
           <li><a href="#faq" class="text-primary-200 hover:text-white transition-colors">FAQ</a>
           </li>
-          <li><a href="https://share.google/jU9lH3miekqSbFAgo" target="_blank" class="text-primary-200 hover:text-white transition-colors">Referenzen</a>
+          <li><a href="https://share.google/jU9lH3miekqSbFAgo" target="_blank"
+                 class="text-primary-200 hover:text-white transition-colors">Referenzen</a>
           </li>
         </ul>
       </div>
@@ -1030,18 +1104,30 @@
       <div>
         <h4 class="text-lg font-semibold mb-4 text-primary-100">Themen</h4>
         <ul class="space-y-2">
-          <li><a href="https://fretz-garten.ch" target="_blank" class="text-primary-200 hover:text-white transition-colors">Gärtner Winterthur</a>
+          <li><a href="https://fretz-garten.ch" target="_blank"
+                 class="text-primary-200 hover:text-white transition-colors">Gärtner Winterthur</a>
           </li>
-          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/rasenpflege/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Rasenpflege Winterthur</a>
+          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/rasenpflege/" target="_blank"
+                 class="text-primary-200 hover:text-white transition-colors">Rasenpflege
+            Winterthur</a>
           </li>
-          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/schnitt-und-jaetarbeiten/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Heckenschnitt Winterthur</a>
+          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/schnitt-und-jaetarbeiten/"
+                 target="_blank" class="text-primary-200 hover:text-white transition-colors">Heckenschnitt
+            Winterthur</a>
           </li>
-          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/biotop-und-teichpflege/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Biotop- und Teichpflege Winterthur</a>
+          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/biotop-und-teichpflege/"
+                 target="_blank" class="text-primary-200 hover:text-white transition-colors">Biotop-
+            und Teichpflege Winterthur</a>
           </li>
-          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/baumpflege/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Baumpflege Winterthur</a>
+          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/baumpflege/" target="_blank"
+                 class="text-primary-200 hover:text-white transition-colors">Baumpflege
+            Winterthur</a>
           </li>
-          <li><a href="https://fretz-garten.ch/gartenbau-winterthur/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Gartenbau Winterthur</a></li>
-          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/garten-sorglos-programm/" target="_blank" class="text-primary-200 hover:text-white transition-colors">Rundum
+          <li><a href="https://fretz-garten.ch/gartenbau-winterthur/" target="_blank"
+                 class="text-primary-200 hover:text-white transition-colors">Gartenbau
+            Winterthur</a></li>
+          <li><a href="https://fretz-garten.ch/gartenpflege-winterthur/garten-sorglos-programm/"
+                 target="_blank" class="text-primary-200 hover:text-white transition-colors">Rundum
             Sorglos Paket</a></li>
         </ul>
       </div>
